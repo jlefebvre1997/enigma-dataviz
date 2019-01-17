@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./chart1/index.css">
         <link rel="stylesheet" href="./chart2/style.css">
-        <link rel="stylesheet" href="./chart3/style.css">
+        <link rel="stylesheet" href="./chart3/manif.css">
         <link rel="stylesheet" href="./chart4/style.css">
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
         <link rel="stylesheet" href="./chart5/style.css">
@@ -18,10 +18,12 @@
         <script src="./chart1/script.js"></script>
         <script type="text/javascript" src="./chart1/concentrations-horaires-de-polluants-dans-lair-ambiant-issues-du-reseau-permanen.js"></script>
         <script type="text/javascript" src="./chart2/qualite-de-lair-mesuree-dans-la-station-chatelet.js"></script>
-        <script src="./chart3/script.js"></script>
+        <script src="./chart3/manif_data.js"></script>
+        <script src="./chart3/manif_chart.js"></script>
         <script src="./chart4/script.js"></script>
         <script type="text/javascript" src="./chart4/assets/js/main.js"></script>
         <script src="./chart5/script.js"></script>
+        <script type="text/javascript" src="./chart5/assets/js/main.js"></script>
         <script src="./chart6/script.js"></script>
     </head>
     <body>
@@ -30,24 +32,26 @@
 
         <table>
             <tr>
-                <td><div id="container">
+                <td id="un">Pollution par ville<div id="container">
                     <svg id="pollution_places"></svg>
                     </div>
                     <script src="https://d3js.org/d3.v5.min.js"></script>
                     <script type="text/javascript" src="./chart1/index.js"></script></td>
-                <td colspan="2">
+                <td id="deux">Moyenne des TCHA4 N2CHA4 NOCHA4 par an
                     <svg id="momentPollu"></svg> 
                     <script src="./chart2/script.js"></script> 
-
+                    <center>
+                        <p class="lineTcha4">TCHA4  </p><p class="lineN2cha4">N2CHA4  </p><p class="lineNOCHA4">NOCHA4</p>
+                    </center>
                 </td>
             </tr>
             <tr>
-                <td>histogramme manif<div id="anneManif"></div></td>
-                <td colspan="2">carte manif<div id="chart_manifestation"></div></td>
+                <td id="trois">Manifestation par an<div id="manif_chart"></div></td>
+                <td id="quatre">carte manif<div id="chart_manifestation"></div></td>
             </tr>
             <tr>
-                <td>Pie Chart <div id="pie"></div></td>
-                <td colspan="2">Line Chart <div id="line"></div></td>
+                <td id="cinq">Différentes catégories d'objets perdus<div id="chart_item_lost"></div></td>
+                <td id="six">Line Chart <div id="line"></div></td>
             </tr>
         </table> 
     </body>

@@ -2,9 +2,19 @@ tr>td{
     display: inline-block;
     border-style: double; 
     box-shadow: 1% 1%;
+    border-radius: 2%
 }
 
-
-#un{
-    width: 20%
+body{
+    background-color: darkgrey;   
+}
+p{
+    display: block;
+    text-align: center;
+}
+h1{
+    font-style: italic
+}
+div{
+    border-radius: 2%;
 }

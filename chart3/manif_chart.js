@@ -115,7 +115,7 @@ function dataTreatment(){
                                                           ]);
     
     var options = {
-    title: 'Manifs par Ans',
+    title: 'Manifestations par Quarters',
     
     legend: { position: 'bottom' }
     };

@@ -1,0 +1,5 @@
+tr>td{
+    display: inline-block;
+    border-style: double; 
+    box-shadow: 1% 1%;
+}

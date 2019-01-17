@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>DashBoard ©</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./chart1/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./chart1/index.css">
+        <link rel="stylesheet" href="./chart2/style.css">
+        <link rel="stylesheet" href="./chart3/style.css">
+        <link rel="stylesheet" href="./chart4/style.css">
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <link rel="stylesheet" href="./chart5/style.css">
+        <link rel="stylesheet" href="./chart6/style.css">
+        <script src="https://d3js.org/d3.v5.js"></script>
+        <script src="./script.js"></script>
+        <script src="./chart1/script.js"></script>
+        <script type="text/javascript" src="./chart1/concentrations-horaires-de-polluants-dans-lair-ambiant-issues-du-reseau-permanen.js"></script>
+        <script type="text/javascript" src="./chart2/qualite-de-lair-mesuree-dans-la-station-chatelet.js"></script>
+        <script src="./chart3/script.js"></script>
+        <script src="./chart4/script.js"></script>
+        <script type="text/javascript" src="./chart4/assets/js/main.js"></script>
+        <script src="./chart5/script.js"></script>
+        <script src="./chart6/script.js"></script>
+    </head>
+    <body>
+        <h1>DashBoard</h1>
+
+
+        <table>
+            <tr>
+                <td><div id="container">
+                    <svg id="pollution_places"></svg>
+                    </div>
+                    <script src="https://d3js.org/d3.v5.min.js"></script>
+                    <script type="text/javascript" src="./chart1/index.js"></script></td>
+                <td colspan="2">
+                    <svg id="momentPollu"></svg> 
+                    <script src="./chart2/script.js"></script> 
+
+                </td>
+            </tr>
+            <tr>
+                <td>histogramme manif<div id="anneManif"></div></td>
+                <td colspan="2">carte manif<div id="chart_manifestation"></div></td>
+            </tr>
+            <tr>
+                <td>Pie Chart <div id="pie"></div></td>
+                <td colspan="2">Line Chart <div id="line"></div></td>
+            </tr>
+        </table> 
+    </body>
+</html>

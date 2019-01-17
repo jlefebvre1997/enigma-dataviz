@@ -1,0 +1,53 @@
+/* 13. Basic Styling with CSS */
+
+/* Style the lines by removing the fill and applying a stroke */
+.lineN2cha4{
+    fill: none;
+    stroke: blueviolet ;
+    color: blueviolet ;
+    stroke-width: 3;
+}
+
+.lineNocha4{
+    fill: none;
+    stroke: aliceblue ;
+    color: aliceblue ;
+    stroke-width: 3;
+}
+
+.lineTcha4{
+    fill: none;
+    stroke: gainsboro ;
+    color: gainsboro ;
+    stroke-width: 3;
+}
+p{
+    float:left;
+}
+center{
+    padding-left: 40%;
+}
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+    fill: #6495ED;
+    stroke: #fff;
+}
+
+.focus circle {
+    fill: none;
+    stroke: steelblue;
+}
+
+.axis{
+    color:dark;
+}
+
+#chartContainer{
+    background-color: darkgray;
+    box-shadow: 10px 10px 5px grey;
+}
